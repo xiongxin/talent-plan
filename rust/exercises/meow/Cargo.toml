@@ -10,9 +10,14 @@ edition = "2018"
 name = "env"
 path = "bin/env.rs"
 
+
 [[bin]]
 name = "errors"
 path = "bin/errors.rs"
+
+[[bin]]
+name = "01a_quick_example"
+path = "bin/01a_quick_example.rs"
 
 [dependencies]
 clap = { features = ["yaml"] }
