@@ -2,6 +2,15 @@ extern crate clap;
 
 use clap::{App, SubCommand};
 
+// USAGE:
+//    01a_quick_example [FLAGS] [OPTIONS] <output> [SUBCOMMAND]
+// [FLAGS] -d
+// [OPTIONS] -d config_file
+// <output> 
+// [SUBCOMMAND] test
+// [SUBCOMMAND] -l
+// 完整的示例
+// 01a_quick_example -ddd -c config.file output.file test -l
 fn main() {
     let matchs = App::new("MyApp")
                     .version("1.0")
