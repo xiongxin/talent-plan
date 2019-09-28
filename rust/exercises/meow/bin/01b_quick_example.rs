@@ -16,9 +16,6 @@ fn main() {
                         .arg(Arg::with_name("output")
                                     .help("Sets an optional output file")
                                     .index(1))
-                        .arg(Arg::with_name("output2")
-                                    .help("Sets an optional output file2")
-                                    .index(2))
                         .arg(Arg::with_name("debug")
                                     .short("d")
                                     .multiple(true)
@@ -45,7 +42,7 @@ fn main() {
 
     // You can see how many times a particular flag or argument occurred
     // Note, only flags can have multiple occurrences
-    match matchs.occurrences_of("d") {
+    match matchs.occurrences_of("debug") {
         0 => println!("Debug mode is off"),
         1 => println!("Debug mode is kind of on"),
         2 => println!("Debug mode is on"),
