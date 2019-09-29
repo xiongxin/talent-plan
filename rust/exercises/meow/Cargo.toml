@@ -24,5 +24,14 @@ path = "bin/01a_quick_example.rs"
 name = "01b_quick_example"
 path = "bin/01b_quick_example.rs"
 
+[[bin]]
+name = "01c_quick_example"
+path = "bin/01c_quick_example.rs"
+
+
+[[bin]]
+name = "03_args"
+path = "bin/03_args.rs"
+
 [dependencies]
 clap = { features = ["yaml"] }
