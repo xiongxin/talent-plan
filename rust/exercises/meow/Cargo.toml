@@ -33,5 +33,21 @@ path = "bin/01c_quick_example.rs"
 name = "03_args"
 path = "bin/03_args.rs"
 
+[[bin]]
+name = "04_using_matches"
+path = "bin/04_using_matches.rs"
+
+[[bin]]
+name = "05_flag_args"
+path = "bin/05_flag_args.rs"
+
+[[bin]]
+name = "06_positional_args"
+path = "bin/06_positional_args.rs"
+
+[[bin]]
+name = "07_option_args"
+path = "bin/07_option_args.rs"
+
 [dependencies]
 clap = { features = ["yaml"] }
